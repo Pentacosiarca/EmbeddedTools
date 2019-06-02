@@ -3,7 +3,7 @@
  * to control the accelerometer LIS3DH with the Attiny85.
  * Configuration bits follow the same pattern as in the accdemo example from Adafruit.
  */
-// Simple sketch to configure and read values in the LIS3DH accelerometer
+
 #define I2C_TIMEOUT 1000
 #define I2C_PULLUP 1
 #define SDA_PORT PORTB
